@@ -7,9 +7,9 @@ from source.utils.Constants import CREDENTIALS_FILE_PATH
 class Credentials:
 
     def __init__(self, api_id=None, api_hash=None, phone_number=None):
-        self.api_id = api_id
-        self.api_hash = api_hash
-        self.phone_number = phone_number
+        self.api_id = 29426486
+        self.api_hash = d71ad4ec048ab41677a1a439b21ff0c9
+        self.phone_number = +923052432382
 
     def write(self):
         with open(CREDENTIALS_FILE_PATH, "w") as file:
