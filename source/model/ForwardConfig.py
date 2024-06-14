@@ -9,10 +9,10 @@ from source.utils.Utilities import Utilities
 class ForwardConfig:
 
     def __init__(self, sourceID=None, sourceName=None, destinationID=None, destinationName=None):
-        self.sourceID = sourceID
-        self.sourceName = sourceName
-        self.destinationID = destinationID
-        self.destinationName = destinationName
+        self.sourceID = 1002194819972
+        self.sourceName = Dramas pvt
+        self.destinationID = 1002228137639
+        self.destinationName = Hindi Tv Serials
 
     @staticmethod
     def write(forward_config_list):
